@@ -7,25 +7,38 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <fragment
-        android:tag="첫프래그먼트"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        class="my.Shin.fragement_20200606.fragments.FirstFragment"/>
+        android:layout_height="match_parent">
 
-<!--    SecondFragment를 파란색곙ㄹ 배경으로 직접 생성 배치-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    <fragment
-        android:tag="첫프래그먼트재활용"
-        android:layout_width="match_parent"
-        android:layout_height="300dp"
-        class="my.Shin.fragement_20200606.fragments.FirstFragment"/>
-    
-    <fragment
-        android:tag="두번째프래그먼트재활용"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        class="my.Shin.fragement_20200606.fragments.SecondFragment"/>
+            <fragment
+                android:tag="첫프래그먼트"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                class="my.Shin.fragement_20200606.fragments.FirstFragment"/>
+
+            <!--    SecondFragment를 파란색곙ㄹ 배경으로 직접 생성 배치-->
+            <fragment
+                android:tag="두번째프래그먼트재활용"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                class="my.Shin.fragement_20200606.fragments.SecondFragment"/>
+
+            <fragment
+                android:tag="첫프래그먼트재활용"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                class="my.Shin.fragement_20200606.fragments.FirstFragment"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
 
 
 </LinearLayout>
