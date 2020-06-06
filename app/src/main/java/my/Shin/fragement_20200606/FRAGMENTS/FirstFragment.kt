@@ -22,6 +22,6 @@ class FirstFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
 
-        messageTxt = "안녕하세요"
+        messageTxt.text = "안녕하세요"
     }
 }
