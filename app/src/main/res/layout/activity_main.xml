@@ -13,5 +13,11 @@
         android:layout_height="200dp"
         class="my.Shin.fragement_20200606.FRAGMENTS.FirstFragment"/>
 
+    <fragment
+        android:tag="첫프래그먼트재활용"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        class="my.Shin.fragement_20200606.FRAGMENTS.FirstFragment"/>
+
 
 </LinearLayout>
