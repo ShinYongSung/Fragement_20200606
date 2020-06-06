@@ -1,4 +1,4 @@
-package my.Shin.fragement_20200606.FRAGMENTS
+package my.Shin.fragement_20200606.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
